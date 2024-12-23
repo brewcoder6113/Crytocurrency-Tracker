@@ -1,0 +1,21 @@
+.selectbutton{
+      border:1px solid #a5defa;
+      border-radius: 5px;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20;
+      font-family: sans-serif;
+      cursor: pointer;
+      width:22%,
+}
+.selectbutton:hover{
+background-color: #a5defa;
+color: black;
+}
+@media (max-width: 768px) {
+      .selectbutton {
+          width: 100%;
+          margin-bottom: 10px; 
+      }
+  }
+     

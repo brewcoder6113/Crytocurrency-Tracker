@@ -1,0 +1,26 @@
+.carousel-main{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.carousel-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: black;
+}
+@media (max-width: 768px) {
+    .carousel-main {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    .carousel-item {
+        margin-bottom: 1rem;
+    }
+}

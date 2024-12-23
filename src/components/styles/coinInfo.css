@@ -1,0 +1,29 @@
+.container-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container-info {
+         width: 100%; 
+        height: fit-content;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 10px; 
+        width: 40%;
+    }
+}

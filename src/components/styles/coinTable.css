@@ -1,0 +1,20 @@
+.row{
+    background-color: white;
+    cursor: pointer;
+}
+.row:hover{
+    background-color:#ece9e9e8 ;
+       
+}
+.pagination .MuiPaginationItem-root{
+  color: black;
+  background-color:  #a5defa;
+  font-weight: 700;
+  font-size: large;
+}
+@media (max-width: 768px) {
+  .TextField {
+      width: 100%; /* Set width to 100% for small screens */
+  }
+}
+  
